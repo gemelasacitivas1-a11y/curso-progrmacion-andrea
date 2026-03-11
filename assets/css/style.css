@@ -1,0 +1,12 @@
+body{
+    background-color:aqua;
+    color:blueviolet;
+}
+h1{
+    color:blanchedalmond;
+}
+.h1{color:brown;
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;/*oo*/
+}

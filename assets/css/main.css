@@ -29,6 +29,10 @@ ul{
 }
 a{
     text-decoration: none;
+
+}
+a:hover:{
+  text-decoration: none;  
 }
 .logo{
     width: 200px;
@@ -46,7 +50,7 @@ a{
 }
 
 /*quienes somos*/
-.container-fluid{
+.quienes-somos{
     display: grid;
     grid-template-columns: 1fr 1fr; /*se divide en dos columnas*/
     color: var(--black);
@@ -57,6 +61,9 @@ a{
 }
 .padding-50px{
     padding: 50px 30px;
+}
+.padding-80px{
+    padding: 80px 20px;
 }
 h2{
     font-size: 2rem;
@@ -70,12 +77,67 @@ p{
 }
 .btn-main-color{
     width:300px;
-    background-color: var(--terciary-color);
-    color: var(--secundary-color);
+    background-color: var(#36656B);
+    color: var(#000000);
     font-size: 1rem;
     padding: 15px 20px;
 }
 .btn-main-color:hover{
     background-color: var(--black);
     color: var(--secundary-color);
+}
+
+/*servicios*/
+.container-fluid{
+    width: 100%;
+}
+.grey-dark{
+    background-color:beige;
+    color:#021526;
+}
+.servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 90px; /*agrega espacio entre las filas de mis cuadros*/
+}
+.center{
+    text-align: center;
+}
+.cyan {
+    color: var(--secundary-color)
+}
+/*cuando le pones el "hover" si le pasas el mause cambia de color*/
+.cyan:hover{ 
+    color: var(--grey-dark)
+}
+.footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    padding: 30px;
+}
+.logo-footer{
+    width : 250px;
+}
+.black{
+    background-color: var(--grey-dark);
+    color: var(--terciary-color);
+}
+.footer ul li a{
+    color: var(--white)
+}
+.footer ul li a:hover{
+    color: var(--secundary-color)
+}
+.footer h3{
+    color: var(--grey-dark);
+    padding-left: 40px;
+}
+.social-icone a{
+    color: var(--secundary-color);
+    font-size: 1rem;
+    padding-left: 25px;
+}
+.social-icone a:hover{
+    color: #75B06F;
+
 }

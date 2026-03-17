@@ -119,7 +119,7 @@ p{
     width : 250px;
 }
 .black{
-    background-color: var(--white);
+    background-color: var(--grey-dark);
     color: var(--terciary-color);
 }
 .footer ul li a{

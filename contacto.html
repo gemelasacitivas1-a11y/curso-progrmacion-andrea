@@ -22,23 +22,51 @@
             </ul>
         </nav>
     </header>
-    <section class="container-fluid grey-bark">
-    <h1>Contactos</h1>
-    <p>Nuestro equipo de profecionales, se encuentra aqui para atenderte</p>
+    <section class="container-fluid ">
+    <h1 class="center" ></h1>Contactos</h1>
+    <p class="center" >Nuestro equipo de profecionales, se encuentra aqui para atenderte</p>
     <div class="contacto">
-        <div class="col"></div>
         <div class="col">
-            <!---revisar esto-->
+            <p>Puedes encontrarnos en alguna de nuestras sucursales</p>
+            <ul>
+                <li><i class="fa-solid fa-location-arrow"></i>Maracay</li>
+                <ul><i class="fa-solid fa-location-arrow"></i>San Juan de los Morros</ul>
+            </ul>
+            <ul>
+                <li><i class="fa-brands fa-square-whatsapp"></i>o412-o360137</li>
+                <ul><i class="fa-solid fa-envelopes-bulk"></i>Academia.endigital.gmail.com</ul>
+            </ul>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1963.0995958179094!2d-67.58835957184301!3d10.245512918433407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2aa9a22ae8d705%3A0xc93b6fc74ba9a8f3!2sAcademia%20Endigital!5e0!3m2!1ses!2sve!4v1774376761729!5m2!1ses!2sve" width="900" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <div class="col pb-80">
+           
+            <form name="form1" action="#" method="get">
             <label>Nombre</label>
-            <form name="form1" action="#" method="get"
-            <input type="text" name="nombre" placeholder="ingresa tu nombre" required>
+           <input type="text" name="nombre" placeholder="ingresa tu nombre" required>
             <label>Apellido</label>
             <input type="text" name="ape" placeholder="ingresa tu apellido" required>
             <label>sexo</label>
-            <option value=""> seleccione una opcion</option>
-            <option value="f">femenino</option>
-            <option value="m">masculino</option>
-        </selection>
+            <select name="sexo">
+                <option value=""> seleccione una opcion</option>
+                <option value="f">femenino</option>
+                <option value="m">masculino</option>
+                </select>
+      
+        <label>Email</label>
+       <input type="email" name="email" placeholder="email">
+          
+        <label>Fecha de nacimiento</label>
+        <input type="date" name="fercha-nac" placeholder="Escribe tu fecha de Nacimiento">
+        <label>ciudad</label>
+        <select name="ciudad">
+            <option value="maracay">maracay</option>
+            <option value="valencia">valencia</option>
+            <option value="maracaibo">maracaibo</option>
+            <option value="barquisimeto">barquisimeto</option>
+            <option value="caracas">caracas</option>
+        </select>
+        <label>Mensaje</label>
+        <textarea name="mensaje" rows="5" cols="100"></textarea>
+        <input type="submit" value="contacto">
         </div>
     </div>
     </section>

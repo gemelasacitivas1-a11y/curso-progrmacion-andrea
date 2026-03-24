@@ -150,26 +150,39 @@ p{
     color:var(--grey-dark);
 }
 .contacto{
-    displey: grid;
-    grid-template-columns: 1fr 1frs;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
-input[type="text"],[type="email"]{
+input[type="text"],[type="email"],[type="date"]{
     width: 100%;
-    birder: 1px solid var(--main-color);
-    padding: 3px;
+    border: 1px solid gray;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 10px;
 
 }
 select{
     width: 100%;
-    birder: 1px solid var(--main-color);
+    border: 1px solid var(--main-color);
     padding: 3px;
 }
 input[type="submit"]{
+    
     width: 80%;
-    background-color: var( #00000);
+    display:block;
+    background-color: var( #000000);
     color: var(#F0F8A4);
     padding: 15px;
 }
-.contacto col{
+textarea{
+    width: 100%;
+    border: 1px solid gray;
+    padding: 3px;
+
+}
+.contacto .col{
     padding: 30px;
+}
+.pb-80{
+    padding-bottom: 80px;
 }

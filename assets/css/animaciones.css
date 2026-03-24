@@ -1,0 +1,77 @@
+.box{
+    width: 300px;
+    background-color:black;
+    color:aliceblue;
+    animation: box;
+    animation-duration: 5s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+/*
+@Keyframes box {
+    from{
+        background-color: black; }
+        to{background-color:blueviolet;}
+}
+*/
+@Keyframes box { 
+    0% {background-color:brown ; left: 0px; top: 0px;}
+    25%{background-color: blue; left: 300px; top: 0px;}
+    50%{background-color: blueviolet;}
+}
+/*mis cajas*/
+.box2{
+    width: 300px;
+    background-color: brown;
+    color:aliceblue;
+    animation: box2;
+    animation-duration: 5s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+@Keyframes box2 { 
+    0% {background-color:brown ; left: 0px; top: 0px;}
+    25%{background-color: blue; left: 100px; top: 0px;}
+    50%{background-color: blueviolet;}
+}
+
+.box3{
+  width: 300px;
+    background-color: brown;
+    color:aliceblue;
+    animation: box3;
+    animation-duration: 5s;
+    position: relative;
+    animation-iteration-count: infinite;  
+}
+@Keyframes box3 { 
+    0% {background-color:brown ; left: 0px; top: 0px;}
+    25%{background-color: blue; left: 120px; top: 0px;}
+    50%{background-color: blueviolet;}
+}
+.box4{
+  width: 300px;
+    background-color: brown;
+    color:aliceblue;
+    animation: box4;
+    animation-duration: 5s;
+    position: relative;
+    animation-iteration-count: infinite;  
+}
+@Keyframes box4 { 
+    0% {background-color:brown ; left: 0px; top: 0px;}
+    25%{background-color: blue; left: 150px; top: 0px;}
+    50%{background-color:bisque;}
+}
+.transicione{
+    width: 300px;
+    height: 300px;
+    background-color: azure;
+    transition: background-color 5s;
+}
+.transicione:hover{
+    /*width: 600px;*/
+    background-color: blueviolet;
+}
+
+

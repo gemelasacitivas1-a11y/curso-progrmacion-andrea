@@ -1,0 +1,30 @@
+/*Tablets(brakpoints 768 a1023px)*/
+@media (min-width:768px){
+.quienes-somos{
+    display: grid;
+    grid-template-columns: auto auto; /*se divide en dos columnas*/
+    color: var(--black);
+    font-size: 16px;
+}
+servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 90px; /*agrega espacio entre las filas de mis cuadros*/
+}
+.footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    padding: 30px;
+
+    
+.contacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+/*lo que esta escrito aqui es para que se vea en la compu y el flex que esta en el css es para que de vea en el cel*/
+}
+.mapa{
+    height: 600px;
+}
+}
+@media (min-width:1024px){
+}

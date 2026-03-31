@@ -1,5 +1,5 @@
 body{
-    background-color:aqua;
+    background-color:white;
     color:blueviolet;
 }
 h1{
@@ -8,5 +8,5 @@ h1{
 .h1{color:brown;
     font-size: 32px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: uppercase;/*oo*/
+    text-transform: uppercase;
 }

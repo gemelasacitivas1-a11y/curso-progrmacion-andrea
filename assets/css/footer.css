@@ -1,0 +1,30 @@
+.footer{
+    display:flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.logo-footer{
+    width : 250px;
+}
+.black{
+    background-color: var(--grey-dark);
+    color: var(--terciary-color);
+}
+.footer ul li a{
+    color: var(--white)
+}
+.footer ul li a:hover{
+    color: var(--secundary-color)
+}
+.footer h3{
+    color: var(--grey-dark);
+    padding-left: 40px;
+}
+.social-icone a{
+    color: var(--secundary-color);
+    font-size: 1rem;
+    padding-left: 25px;
+}
+.social-icone a:hover{
+    color: #75B06F;
+}

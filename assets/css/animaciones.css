@@ -64,14 +64,14 @@
     50%{background-color:bisque;}
 }
 .transicione{
-    width: 300px;
-    height: 300px;
-    background-color: azure;
-    transition: background-color 5s;
+    width: 80px;
+    height: 60px;
+    background-color:brown ;
+    transition: width 5s;
 }
 .transicione:hover{
-    /*width: 600px;*/
-    background-color: blueviolet;
+    width: 600px;
+  
 }
 
 

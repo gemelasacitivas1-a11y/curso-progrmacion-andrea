@@ -1,0 +1,61 @@
+/*quienes somos*/
+.quienes-somos{
+    display: flex;
+  flex-direction: column;
+}
+.img-fluid{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+.padding-50px{
+    padding: 50px 30px;
+}
+.padding-80px{
+    padding: 80px 20px;
+}
+h2{
+    font-size: 2rem;
+}
+.main-color-font{
+    color:var(--black);
+}
+p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.btn-main-color{
+    width:50%;
+    background-color: var(#36656B);
+    color: var(#000000);
+    font-size: 1rem;
+    padding: 15px 20px;
+}
+.btn-main-color:hover{
+    background-color: var(--black);
+    color: var(--secundary-color);
+}
+
+/*servicios*/
+.container-fluid{
+    width: 100%;
+}
+.grey-dark{
+    background-color:beige;
+    color:#021526;
+}
+.servicios{
+    display: flex;
+    flex-direction: column;
+    row-gap: 90px; /*agrega espacio entre las filas de mis cuadros*/
+}
+.center{
+    text-align: center;
+}
+.cyan {
+    color: var(--secundary-color)
+}
+/*cuando le pones el "hover" si le pasas el mause cambia de color*/
+.cyan:hover{ 
+    color: var(--grey-dark)
+}

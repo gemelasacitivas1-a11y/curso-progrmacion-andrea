@@ -22,7 +22,7 @@
 }
 .social-icone a{
     color: var(--secundary-color);
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding-left: 25px;
 }
 .social-icone a:hover{

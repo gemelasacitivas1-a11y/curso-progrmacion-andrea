@@ -36,7 +36,7 @@ a{
     text-decoration: none;
 
 }
-a:hover:{
+a:hover{
   text-decoration: none;  
 }
 .logo{
@@ -68,7 +68,7 @@ a{
     text-decoration: none;
 
 }
-a:hover:{
+a:hover{
   text-decoration: none;  
 }
 .logo{
@@ -83,4 +83,5 @@ a:hover:{
     color: var(--secundary-color);
 }
 .main-menu li a:hover{
-    color:var(--white
+    color:var(--white)
+}

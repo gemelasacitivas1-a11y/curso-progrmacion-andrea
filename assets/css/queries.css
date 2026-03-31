@@ -34,7 +34,7 @@
 }
 .servicios{
     display: grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     row-gap: 90px; /*agrega espacio entre las filas de mis cuadros*/
 }
 .footer{

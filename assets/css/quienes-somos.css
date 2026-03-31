@@ -47,6 +47,7 @@ p{
 .servicios{
     display: flex;
     flex-direction: column;
+    max-width: 100%;
     row-gap: 90px; /*agrega espacio entre las filas de mis cuadros*/
 }
 .center{

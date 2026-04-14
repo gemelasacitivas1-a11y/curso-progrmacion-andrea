@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EscuelaPlus | Artículos Escolares y Arte en Palo Negro</title>
+    <meta name="description" content="Distribuidora de artículos escolares y arte para niños en Palo Negro, Aragua. Envíos nacionales. Distribuidores de Norma y Crayola.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .product-card:hover { transform: translateY(-5px); transition: all 0.3s ease; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <a href="https://wa.me/TU_NUMERO" class="fixed bottom-6 right-6 z-50 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors" target="_blank">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.588-5.946 0-6.556 5.332-11.891 11.893-11.891 3.181 0 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.481 8.403 0 6.556-5.332 11.891-11.893 11.891-2.046 0-4.04-.523-5.804-1.516l-6.089 1.597zm5.914-3.513c1.603.953 3.14 1.432 4.673 1.432 5.304 0 9.619-4.314 9.619-9.619 0-2.57-1.002-4.985-2.823-6.807-1.821-1.822-4.234-2.823-6.796-2.823-5.304 0-9.619 4.315-9.619 9.619 0 1.905.556 3.754 1.611 5.352l-.993 3.627 3.729-.981z"/></svg>
+    </a>
+
+    <header class="bg-white shadow-sm sticky top-0 z-40">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-blue-600">EscuelaPlus</div>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#inicio" class="hover:text-blue-600">Inicio</a>
+                <a href="#productos" class="hover:text-blue-600">Productos</a>
+                <a href="#nosotros" class="hover:text-blue-600">Nosotros</a>
+                <a href="#proveedores" class="hover:text-blue-600 text-orange-600">Proveedores</a>
+            </div>
+            <a href="#contacto" class="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition">Tienda Física</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="py-16 md:py-24 bg-gradient-to-r from-blue-50 to-indigo-50">
+            <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6 text-slate-900">
+                        El arte de aprender empieza en <span class="text-blue-600">Palo Negro</span>
+                    </h1>
+                    <p class="text-lg text-slate-600 mb-8">
+                        Distribuimos materiales escolares y de arte de las mejores marcas como **Norma** y **Crayola**. Envíos nacionales con cobro en destino.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#productos" class="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:shadow-xl transition">Ver Catálogo</a>
+                        <a href="#proveedores" class="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-blue-50 transition">Soy Proveedor</a>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="w-full h-80 bg-blue-200 rounded-3xl flex items-center justify-center text-blue-400 font-bold italic">
+                        [Imagen: Kit de Arte EscuelaPlus]
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="productos" class="py-20 container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Nuestros Destacados</h2>
+                <p class="text-gray-500 italic">Calidad garantizada para los pequeños artistas</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
+                <article class="product-card bg-white p-4 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-center">
+                    <div class="w-full h-40 bg-gray-100 rounded-xl mb-4 flex items-center justify-center text-xs text-gray-400 uppercase">Foto Producto 1</div>
+                    <span class="text-[10px] bg-orange-100 text-orange-600 px-2 py-1 rounded-full self-start mb-2 font-bold uppercase">Crayola</span>
+                    <h3 class="font-bold text-lg mb-2">Caja de Colores x24</h3>
+                    <p class="text-sm text-gray-500 mb-4 text-center italic leading-tight">Colores intensos y no tóxicos.</p>
+                    <button class="mt-auto w-full bg-slate-900 text-white py-2 rounded-lg hover:bg-slate-700 transition">Consultar</button>
+                </article>
+                </div>
+        </section>
+
+        <section id="proveedores" class="py-20 bg-slate-900 text-white">
+            <div class="container mx-auto px-6 md:flex items-center justify-between">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h2 class="text-3xl font-bold mb-6 italic">¿Eres distribuidor o fabricante?</h2>
+                    <p class="text-slate-400 text-lg">
+                        En EscuelaPlus estamos en constante crecimiento. Buscamos socios comerciales que quieran llevar sus productos a cada rincón de Venezuela a través de nuestra plataforma.
+                    </p>
+                </div>
+                <div class="md:w-1/3 bg-white p-8 rounded-2xl text-gray-800">
+                    <h3 class="text-xl font-bold mb-4">Contáctanos</h3>
+                    <form class="space-y-4">
+                        <input type="text" placeholder="Tu Empresa" class="w-full px-4 py-2 border rounded-lg focus:outline-blue-500">
+                        <input type="email" placeholder="Email de contacto" class="w-full px-4 py-2 border rounded-lg focus:outline-blue-500">
+                        <textarea placeholder="¿Qué productos ofreces?" class="w-full px-4 py-2 border rounded-lg focus:outline-blue-500"></textarea>
+                        <button class="w-full bg-orange-500 text-white py-3 rounded-lg font-bold hover:bg-orange-600 transition">Enviar Propuesta</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-100 py-12">
+        <div class="container mx-auto px-6 grid md:grid-cols-3 gap-12">
+            <div>
+                <div class="text-2xl font-bold text-blue-600 mb-4">EscuelaPlus</div>
+                <p class="text-sm text-gray-500 italic">Palo Negro, Aragua. Tu tienda de confianza para el desarrollo creativo infantil.</p>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4 uppercase text-xs tracking-widest">Ubicación</h4>
+                <p class="text-sm text-gray-600">Tienda Física en Palo Negro, Edo. Aragua.</p>
+                <p class="text-sm text-gray-600 mt-2 font-bold">Envíos: MRW, Tealca, Zoom (COD)</p>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4 uppercase text-xs tracking-widest">Síguenos</h4>
+                <div class="flex space-x-4">
+                    <span class="text-sm text-gray-500">Instagram / Facebook</span>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-12 pt-8 border-t border-gray-200 text-xs text-gray-400">
+            &copy; 2026 EscuelaPlus. Todos los derechos reservados.
+        </div>
+    </footer>
+
+</body>
+</html>

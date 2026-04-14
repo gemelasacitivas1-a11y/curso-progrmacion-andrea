@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escuelaplus</title>
+     <link rel="stylesheet" href="../assets/css/Papeleria2.css">
+     <link rel="stylesheet" href= "../assets/fontawesome-free-7.2.0-web/css/all.css">
+</head>
+<body>
+<header>
+    <div>
+        <img src="../assets/images/logo.jpg" alt="logo-esquina" class="logo">
+    </div>
+        <button class="boton">ofertas</button>
+        <nav>
+            <ul class="texto-de-arriba"> 
+                <li><a href="../inicio.html" target="_self">Inicio</a></li>
+                <li><a href="../Nosotros.html" target="_self">Nosotros</a></li>
+                <li><a href="../Productos.html" target="_self">Productos</a></li>
+                <li><a href="../contacto.html" target="_self">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+<!---titulo de la cosa esta-->
+<h1></h1>
+<!----foto-->
+<img src="" alt="gia-de-arte">
+<!---parrafo-->
+<p></p>
+<!----foto-->
+<img src="" alt="gia-de-arte">
+<!---parrafo2-->
+<p></p>
+<!----foto-->
+<img src="" alt="gia-de-arte">
+<!---parrafo3-->
+<p></p>
+<!----foto-->
+<img src="" alt="gia-de-arte">
+
+    <footer class="black">
+        <section class="footer final">
+            <img src="../assets/images/logo.jpg" alt="logo" class="logo-footer">
+        <div class="footer-col">
+                <h3 class="concepto centro">Empresa</h3>
+            <ul> 
+                <li><a href="../inicio.html" target="_self">Inicio</a></li>
+                <li><a href="../Nosotros.html" target="_self">Nosotros</a></li>
+                <li><a href="../Productos.html" target="_self">Productos</a></li>
+                <li><a href="../contacto.html" target="_self">Contacto</a></li>
+            </ul>
+            </div>
+            <div class="footer-col">
+                <h3 class="concepto centro">Contactanos</h3>
+                <ul>
+                    <li>Palo Negro-Aragua</li>
+                    <li></i>0412-o36o137</li>
+                    <li></li></i>Escuelaplus</li>
+                </ul>
+            </div>
+        <div class="footer-col">
+            <h3 class="concepto">Distribuidores</h3>
+                <ul>
+                    <li>Kores</li>
+                    <li>Paper Mate</li>
+                    <li>Crayola</li>
+                    <li>Norma</li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
+       

@@ -1,0 +1,208 @@
+:root{
+    --main-color:#CCFFFF;
+    --secundary-color:#317cfe;
+    --terciary-color: #9a0079;
+    --cuarto-color:#FEF2FC;
+    --white:#ffffff;
+    --black:#000000;
+}
+*,*:before,*after{
+    box-sizing: inherit;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family:cursive;
+    font-weight: 100; 
+    font-size: 1rem;
+}
+.logo{
+width: 150px;
+}
+html{
+    box-sizing: border-box;
+}
+header{
+    background-color: var(--cuarto-color); /*color de la barra de arriba*/
+    justify-content: space-between;/* hace que se pongan en fila*/
+    color: white;
+    display:flex;
+    padding:0px 5px;/*tamaño de la barra con respecto a lo que este adentro*/
+}
+ul{
+    list-style: none;
+}
+/*a{
+    text-decoration: none;
+}le quita la barra de abajo a el texto*/
+.boton{
+    width:400px;
+    background-color: palevioletred;
+    color:var(--secundary-color); 
+    font-size: 30px;/*tamaño de la letra*/
+    padding: 20px 60px;/*espacio interno*/
+    height: 80px;/*altura del boton*/
+    margin-top: 30px;/* borde del boton con lo de arriba*/
+}
+.boton:hover{
+    background-color:var(--secundary-color);
+    color: palevioletred;
+}
+.texto-de-arriba{
+    display: flex;
+    gap: 60px; /*espacio entre los textos*/
+    padding: 40px 40px 20px 350px;/*espacio del texto con el borde*/
+}
+
+.texto-de-arriba li a{
+    color: var(--terciary-color);
+    font-size: 30px;
+}
+.texto-de-arriba li a:hover{
+    color:var(--secundary-color)
+}
+.arriba-imagen{
+    font-size: 80px;/*tamaño de la letra*/
+    color: var(--secundary-color);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;/*tipo de letra*/
+    font-weight: 820;/*pone gordita la letra*/
+    text-align: center;/*pa que este en el centro*/
+    margin-top: 0%;/*pa que no exista margen entre la barra y el texto*/
+}
+/*termina la barra de arriba*/
+.img-flid{
+    max-width: 1500px;
+    margin-top: 0%;
+}
+.container-fluid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.col{
+    color: #003287;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 40;
+}
+.Productos{
+    width: 400px;
+}
+.subtitulo{
+    font-size: 50px;/*tamaño de la letra*/
+    color: var(--terciary-color);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;/*tipo de letra*/
+    text-align: center;/*pa que este en el centro*/
+    margin-top: 0%;/*pa que no exista margen entre la barra y el texto*/
+}
+h3{
+    font-size: 30px;/*tamaño de la letra*/
+    color: var(--terciary-color);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.concepto{
+    font-size: 20px;
+    color:black;
+    font-family:'Lucida Sans';
+}
+.corte{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.logo-footer{
+    width :150px;
+}
+.black{
+    background-color:var(--cuarto-color);
+    color: var(--terciary-color);
+}
+.footer ul li a{
+    color: var(--terciary-colore);
+}
+.footer ul li a:hover{
+    color: var(--secundary-color);
+}
+.footer h3{
+    color: var(--grey-dark);
+}
+.final{
+    padding: 0px 50px 0px 0px;
+    gap: 50px;
+    
+}
+/*contacto*/
+.title{
+    color:black;
+}
+.contacto{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+input[type="text"],[type="email"],[type="date"]{
+    width: 100%;
+    border: 1px solid gray;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+select{
+    width: 100%;
+    border: 1px solid var(--terciary-color);
+    padding: 3px;
+}
+input[type="submit"]{
+    
+    width: 80%;
+    display:block;
+    background-color: var( #000000);
+    color: var(#F0F8A4);
+    padding: 15px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid rgb(255, 0, 0);
+    padding: 3px;
+
+}
+.contacto .col{
+    padding: 30px;
+}
+.pb-80{
+    padding-bottom: 80px;
+}
+.center{
+    text-align: center;
+}
+/*nosotros*/
+body{
+margin: 0;
+padding: 0;
+display: flex;
+flex-direction: column;
+}
+.linea1{
+background-color: white;
+display:flex;
+color: black;
+height: 400px;
+flex-direction: column;
+text-align: center;
+}
+.linea2{
+    height: 400px;
+    background-color:hsl(190, 100%, 75%);
+    text-align: center;
+}
+.linea3{
+    height: 400px;
+    background-color:white ;
+    text-align: center;
+}
+.texto{
+    padding: 0px 80px;
+}
